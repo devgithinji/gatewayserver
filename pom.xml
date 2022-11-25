@@ -34,6 +34,25 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
+        <!--spring sleuth config-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-sleuth</artifactId>
+            <version>2.1.0.RELEASE</version>
+        </dependency>
+
+        <!-- spring cloud sleuth zipkin setup-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-sleuth-zipkin</artifactId>
+            <version>3.1.5</version>
+        </dependency>
+
+        <!-- rabbit mq used for log aggregations-->
+        <dependency>
+            <groupId>org.springframework.amqp</groupId>
+            <artifactId>spring-rabbit</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
