@@ -31,4 +31,6 @@ public class GatewayServerApplication {
                                 .addResponseHeader("X-Response-Time", new Date().toString())).uri("1b://CARDS")).build();
     }
 
+
+
 }
